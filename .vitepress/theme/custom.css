@@ -1,0 +1,19 @@
+:root {
+  --vp-c-brand: #9653cb;
+  --vp-c-brand-light: #9c60ca;
+  --vp-c-brand-lighter: #a070c5;
+  --vp-c-brand-lightest: #ad89c9;
+  --vp-c-brand-dark: #963ddb;
+  --vp-c-brand-darker: #8d1fe0;
+}
+
+.release-tag {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 4px 6px;
+  margin-left: 6px;
+  background: var(--vp-c-brand);
+  color: #fff;
+  border-radius: 10px;
+  vertical-align: middle;
+}

@@ -2,27 +2,51 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  srcDir: './src',
+  lang: 'zh-CN',
   title: "shion",
-  description: "A VitePress Site",
+  description: "计时软件⏳️🚧",
+  head: [
+    [
+      'link',
+      { rel: 'icon', type: 'image/png', href: '/logo.png' }
+    ]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    logo: "/logo.png",
+    sidebar:  {
+      '/guide/': [
+        {
+          text: '指南',
+          items : [
+            {
+              text: '简介',
+              link: '/guide/introduction'
+            },
+            {
+              text: '功能',
+              collapsed: true,
+              items: [
+                {
+                  text: '手动计时',
+                  link: '/guide/note'
+                },
+                {
+                  text: '自动计时',
+                  link: '/guide/activity'
+                },
+              ]
+            }
+          ]
+        }
+      ]
+    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/shion-app/shion' }
+    ],
+    search: {
+      provider: 'local',
+    }
   }
 })
