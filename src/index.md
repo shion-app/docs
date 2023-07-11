@@ -5,13 +5,14 @@ layout: home
 hero:
   name: shion
   text: 计时软件⏳️🚧
-  tagline: 记录生活的每一个瞬间
+  tagline: 记录一片落叶🍂
   image:
     src: /logo.png
     alt: shion
   actions:
     - theme: brand
       text: 下载
+      link: /download
     - theme: alt
       text: 快速开始
       link: /guide/introduction
@@ -19,21 +20,21 @@ hero:
 features:
   - icon: 🏷️
     title: 标签分类
-    details: 将记录打包整理，井然有序
+    details: 打包整理，井然有序
   - icon: 📊
-    title: 图表展示
-    details: 可视化展示活动记录，配合日历显示度过的每一天
+    title: 数据展示
+    details: 图表日历，一目了然
   - icon: 🖥️
     title: 后台监听
-    details: 监听操作，实时记录使用的状态
+    details: 监听操作，实时记录
 ---
 
 
 <script setup>
 import { onMounted } from 'vue'
-import { fetchRelease } from '../.vitepress/fetchRelease'
+import { fetchVersion } from '../.vitepress/fetchVersion'
 
 onMounted(() => {
-  fetchRelease()
+  fetchVersion()
 })
 </script>
