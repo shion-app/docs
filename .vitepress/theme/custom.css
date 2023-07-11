@@ -5,6 +5,8 @@
   --vp-c-brand-lightest: #ad89c9;
   --vp-c-brand-dark: #963ddb;
   --vp-c-brand-darker: #8d1fe0;
+  --vp-home-hero-image-background-image: radial-gradient(#9653cb, #d9fdfe);
+  --vp-home-hero-image-filter: blur(40px);
 }
 
 .release-tag {
