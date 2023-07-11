@@ -32,7 +32,7 @@ export default defineConfig({
             },
             {
               text: '功能',
-              collapsed: true,
+              collapsed: false,
               items: [
                 {
                   text: '手动计时',
@@ -77,5 +77,11 @@ export default defineConfig({
         }
       }
     },
+    editLink: {
+      pattern: 'https://github.com/shion-app/docs/tree/main/src/:path'
+    },
+    footer: {
+      copyright: 'Copyright © 2023 shion-app'
+    }
   },
 });
