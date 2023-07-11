@@ -1,80 +1,78 @@
-# 手动计时
+# Manual timing
 
-## 总览
+## Overview
 
-图表展示每一天的记录情况
+The chart shows the records of each day
 
-时间可切换最近一周或一个月
+The time can be switched to the last week or month
 
-分类可切换计划或标签
+Category toggleable plan or label
 
 ![](/note/overview.png)
 
-## 计划
+## Plan
 
-包含记录的最大集合
+Contains the largest collection of records
 
-在当前页面时，左侧导航栏下端会显示更多按钮，悬浮后显示菜单（包含"创建计划"）
+When on the current page, more buttons will be displayed at the bottom of the left navigation bar, and a menu (including "Create Plan") will be displayed after hovering
 
-鼠标悬浮在数据块，显示编辑、删除
+Hover the mouse over the data block to display edit and delete
 
-每个数据块包含名称，所有记录的总用时，计划本身的颜色
+Each data block contains the name, the total elapsed time of all records, and the color of the plan itself
 
 ![](/note/plan.png)
 
-## 标签
+## Label
 
-包含记录的细化后的集合
+Contains the thinned collection of records
 
-在当前页面时，左侧导航栏下端会显示更多按钮，悬浮后显示菜单（包含"创建标签"）
+When on the current page, more buttons will be displayed at the bottom of the left navigation bar, and a menu (including "Create Label") will be displayed after hovering
 
-鼠标悬浮在数据块，显示编辑、删除、开始计时
+Hover the mouse over the data block, display edit, delete, start timing
 
-每个数据块包含名称，所有记录的总用时，所处计划的颜色，列表会将相同计划的数据块摆放在一起
+Each data block contains the name, the total time of all records, the color of the plan it is in, and the list will put the data blocks of the same plan together
 
 ![](/note/label.png)
 
 
-## 记录
+## Note
 
-计时数据的最小单位，计时前需指定具体的计划和在计划之下的标签
+The smallest unit of timing data, you need to specify a specific plan and a label under the plan before timing
 
-在计划和标签页中，点击对应数据块跳转到记录详情页
+In the plan and tab pages, click the corresponding data block to jump to the record details page
 
-左侧展示数据列表，右侧显示日历
+The data list is displayed on the left, and the calendar is displayed on the right
 
 ![](/note/note.png)
 
-### 数据列表
+### Datasheets
 
-悬浮于具体一行数据，可重新修改或删除
+Suspended on a specific row of data, can be re-modified or deleted
 
-### 日历
+### Calendar
 
-可切换年月
+Year and month can be switched
 
-+ 切换月时，日历显示活跃天的对应所有标签颜色
++ When switching months, the calendar shows all label colors corresponding to the active day
 
-+ 切换年时，日历颜色的深浅显示活跃时间的长短
++ When switching years, the shade of the calendar color shows the length of the active time
 
-点击具体日期，数据列表滑动到对应数据
+Click on a specific date, the data list slides to the corresponding data
 
-鼠标悬浮日期展示当天总用时
+The mouse hover date shows the total time of the day
 
 
 
-## 计时
+## Timing
 
-选择页面中▶️按钮，填写必填项后，点击开始
+Select the ▶️ button on the page, fill in the required items, and click Start
 
-选择倒计时，会在指定时间到达后发出通知，但不会自动结束（红色代表此时在倒计时，绿色则代表时间已经超出）
+If you select countdown, a notification will be issued after the specified time is reached, but it will not end automatically (red means the countdown is in progress, and green means the time has passed)
 
-点击页面中⏸️按钮，计时结束
+Click the ⏸️ button on the page to end the timer
 
-在计时过程中，跳转其他页面不会导致计时结束，底部栏同样会显示计时情况
+During the timing process, jumping to other pages will not cause the timing to end, and the bottom bar will also display the timing status
 
-计时的另一个入口在标签页面，悬浮时显示
+Another entry for timing is displayed on the tab page when hovering
 
 ![](/note/time.png)
-
-

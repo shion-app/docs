@@ -3,30 +3,30 @@
 layout: home
 
 hero:
-  name: shion
-  text: 计时软件⏳️🚧
-  tagline: 记录一片落叶🍂
-  image:
-    src: /logo.png
-    alt: shion
-  actions:
-    - theme: brand
-      text: 下载
-      link: /download
-    - theme: alt
-      text: 快速开始
-      link: /guide/introduction
+   name: shion
+   text: Timing software⏳️🚧
+   tagline: Recording a fallen leaf🍂
+   image:
+     src: /logo.png
+     alt: shion
+   actions:
+     - theme: brand
+       text: Download
+       link: /download
+     - theme: alt
+       text: Quick start
+       link: /guide/introduction
 
 features:
-  - icon: 🏷️
-    title: 标签分类
-    details: 打包整理，井然有序
-  - icon: 📊
-    title: 数据展示
-    details: 图表日历，一目了然
-  - icon: 🖥️
-    title: 后台监听
-    details: 监听操作，实时记录
+   - icon: 🏷️
+     title: Label classification
+     details: Packing and organizing, orderly
+   - icon: 📊
+     title: Data display
+     details: Chart calendar, clear at a glance
+   - icon: 🖥️
+     title: Background monitoring
+     details: Monitoring operation, real-time recording
 ---
 
 
@@ -35,6 +35,6 @@ import { onMounted } from 'vue'
 import { fetchVersion } from '../.vitepress/fetchVersion'
 
 onMounted(() => {
-  fetchVersion()
+   fetchVersion()
 })
 </script>

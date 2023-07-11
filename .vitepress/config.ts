@@ -3,9 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: './src',
-  lang: 'zh-CN',
   title: 'shion',
-  description: '计时软件⏳️🚧',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
     [
@@ -18,65 +16,112 @@ export default defineConfig({
     ],
   ],
   lastUpdated: true,
-  // https://vitepress.dev/reference/default-theme-config
-  themeConfig: {
-    logo: '/logo.png',
-    sidebar: {
-      '/guide/': [
-        {
-          text: '指南',
-          items: [
+  locales: {
+    root: {
+      label: 'English',
+      lang: 'en',
+      description: 'Timing software ⏳️🚧',
+      themeConfig: {
+        sidebar: {
+          '/guide/': [
             {
-              text: '简介',
-              link: '/guide/introduction',
-            },
-            {
-              text: '功能',
-              collapsed: false,
+              text: 'Guide',
               items: [
                 {
-                  text: '手动计时',
-                  link: '/guide/note',
+                  text: 'Introduction',
+                  link: '/guide/introduction',
                 },
                 {
-                  text: '自动计时',
-                  link: '/guide/activity',
+                  text: 'Feature',
+                  collapsed: false,
+                  items: [
+                    {
+                      text: 'Manual timing',
+                      link: '/guide/note',
+                    },
+                    {
+                      text: 'Automatic timing',
+                      link: '/guide/activity',
+                    },
+                  ],
                 },
               ],
             },
           ],
         },
-      ],
+        nav: [
+          { text: 'Download', link: '/download' },
+        ],
+      }
     },
-    nav: [
-      { text: '下载', link: '/download' },
-    ],
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/shion-app/shion' },
-    ],
-    search: {
-      provider: 'local',
-      options: {
-        locales: {
-          zh: {
-            translations: {
-              button: {
-                buttonText: '搜索文档',
-                buttonAriaLabel: '搜索文档'
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换'
+    zh: {
+      label: '中文',
+      lang: 'zh',
+      link: '/zh/',
+      description: '计时软件⏳️🚧',
+      themeConfig: {
+        sidebar: {
+          '/zh/guide/': [
+            {
+              text: '指南',
+              items: [
+                {
+                  text: '简介',
+                  link: '/en/guide/introduction',
+                },
+                {
+                  text: '功能',
+                  collapsed: false,
+                  items: [
+                    {
+                      text: '手动计时',
+                      link: '/en/guide/note',
+                    },
+                    {
+                      text: '自动计时',
+                      link: '/en/guide/activity',
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        search: {
+          provider: 'local',
+          options: {
+            locales: {
+              zh: {
+                translations: {
+                  button: {
+                    buttonText: '搜索文档',
+                    buttonAriaLabel: '搜索文档'
+                  },
+                  modal: {
+                    noResultsText: '无法找到相关结果',
+                    resetButtonTitle: '清除查询条件',
+                    footer: {
+                      selectText: '选择',
+                      navigateText: '切换'
+                    }
+                  }
                 }
               }
             }
           }
-        }
+        },
+        nav: [
+          { text: '下载', link: '/download' },
+        ],
       }
-    },
+    }
+  },
+  // https://vitepress.dev/reference/default-theme-config
+  themeConfig: {
+    logo: '/logo.png',
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/shion-app/shion' },
+    ],
     editLink: {
       pattern: 'https://github.com/shion-app/docs/tree/main/src/:path'
     },

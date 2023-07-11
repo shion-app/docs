@@ -1,34 +1,34 @@
-# 自动计时
+# Automatic timing
 
-::: info 
-功能还在完善中🚧
+::: info
+The feature is still being improved🚧
 :::
 
-## 监听
+## Monitor
 
-在当前页面时，左侧导航栏下端会显示更多按钮，悬浮后显示菜单（包含"切换筛选开关"）
+When on the current page, more buttons will be displayed at the bottom of the left navigation bar, and the menu will be displayed after hovering (including "toggle filter switch")
 
-当筛选开关打开时，打开其他应用程序窗口，会显示在页面上，点击将其添加到监听列表中
+When the filter switch is turned on, open other application windows, it will be displayed on the page, click to add it to the listening list
 
-当筛选开关关闭时，此时所有在监听列表的程序都将被记录
+When the filter switch is turned off, all programs in the listening list will be recorded at this time
 
-清除监听的应用程序列表，并不会删除已经记录的活动
+Clear the list of listening applications without deleting the recorded activities
 
 ![](/activity/monitor.png)
 
 
-## 活动
+## Activity
 
-当切换其他窗口、窗口名称变化时（资源管理器、浏览器tab的切换）活动被记录，1分钟没有鼠标或是键盘的输入，将进入空闲状态
+When switching other windows, window name changes (explorer, browser tab switching) activities are recorded, if there is no mouse or keyboard input for 1 minute, it will enter the idle state
 
-其余时间显示为空闲
+Show as free the rest of the time
 
-切换日期查看每一天的数据，可切换折线图和柱状图
+Switch the date to view the data of each day, you can switch between line chart and column chart
 
-折线图横坐标显示时间，纵坐标显示当天记录时间总和
+The abscissa of the line chart shows the time, and the ordinate shows the sum of the recorded time of the day
 
-柱状图横坐标显示程序名称，纵坐标显示该程序运行时间
+The abscissa of the histogram shows the program name, and the ordinate shows the running time of the program
 
-折线图时显示"打开日志"按钮，点击显示图表对应数据日志
+When the line chart is displayed, the "Open Log" button is displayed, click to display the corresponding data log of the chart
 
 ![](/activity/activity.png)

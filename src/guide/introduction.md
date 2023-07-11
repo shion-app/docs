@@ -1,35 +1,35 @@
-# 简介
+# Introduction
 
-::: warning 
-当前处于早期开发版本，这意味着随时会有大的改动，而且不会提供数据库迁移功能⚠️
+::: warning
+It is currently in an early development version, which means that there will be major changes at any time, and there will be no database migration help ⚠️
 
-可以选择轻度使用，或是关闭自动更新，或者等到正式版再使用吧
+You can choose to use it lightly, or turn off automatic updates, or wait until the stable version to use it
 :::
 
 
 
-## 功能
+## Feature
 
-+ [记录](./note.md#记录)一段时间，使用[计划](./note.md#计划)和[标签](./note.md#标签)将其分类
-+ 筛选需要[监听](./activity.md#监听)的软件，展示[活动](./activity.md#活动)状态
-+ 图表、日历、日志多种方式显示数据
-
-
-
-## 支持的平台
-
-目前只支持windows，使用[tauri](https://tauri.app/zh-cn/)支持跨平台，在后续更新中可能支持
++ [Record](./note.md#note) for a while, use [plan](./note.md#plan) and [label](./note.md#label) to categorize it
++ Filter the software that needs [monitoring](./activity.md#monitor), and display the status of [activity](./activity.md#activity)
++ Various ways to display data in charts, calendars, and logs
 
 
 
-## 改进
+## Supported platforms
 
-### bug
+Currently only supports windows, use [tauri](https://tauri.app/) to support cross-platform, may be supported in subsequent updates
 
-发现程序运行错误，请按照指南在[此处](https://github.com/shion-app/shion/issues)反馈
+
+
+## Improve
+
+### bugs
+
+If you find an error in the program, please follow the guide to [here](https://github.com/shion-app/shion/issues) to report
 
 
 
 ### feature
 
-想要的功能没有？欢迎在[此处](https://github.com/shion-app/shion/issues)提交，但需要注意的是，你需要的功能可能过于特殊，或是短期不会计划去实现。可以在[此处](https://github.com/shion-app/shion/discussions)先讨论
+Is there any feature you want? Welcome to submit [here](https://github.com/shion-app/shion/issues), but it should be noted that the feature you need may be too special, or it will not be implemented in the short term. You can discuss it first [here](https://github.com/shion-app/shion/discussions)
