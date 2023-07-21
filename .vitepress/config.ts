@@ -6,14 +6,6 @@ export default defineConfig({
   title: 'shion',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
-    [
-      'script',
-      {
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1215089771128224',
-        crossorigin: 'anonymous',
-        async: '',
-      },
-    ],
   ],
   lastUpdated: true,
   locales: {
@@ -88,7 +80,7 @@ export default defineConfig({
           ],
         },
         nav: [
-          { text: '下载', link: '/download' },
+          { text: '下载', link: '/zh/download' },
         ],
       }
     }
