@@ -66,6 +66,10 @@ export default defineConfig({
                   collapsed: false,
                   items: [
                     {
+                      text: '总览',
+                      link: '/zh/guide/overview',
+                    },
+                    {
                       text: '手动计时',
                       link: '/zh/guide/note',
                     },
