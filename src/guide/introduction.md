@@ -12,7 +12,7 @@ You can choose to use it lightly, or turn off automatic updates, or wait until t
 
 + [Record](./note.md#note) for a while, use [plan](./note.md#plan) and [label](./note.md#label) to categorize it
 + Filter the software that needs [monitoring](./activity.md#monitor), and display the status of [activity](./activity.md#activity)
-+ Various ways to display data in charts, calendars, and logs
++ Various ways to display data in charts, calendars
 
 
 

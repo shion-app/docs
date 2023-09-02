@@ -1,34 +1,36 @@
 # Automatic timing
 
-::: info
+:::info
 The feature is still being improved🚧
 :::
 
 ## Monitor
 
-When on the current page, more buttons will be displayed at the bottom of the left navigation bar, and the menu will be displayed after hovering (including "toggle filter switch")
+Shows the name, total time, and corresponding color of each monitoring software
 
-When the filter switch is turned on, open other application windows, it will be displayed on the page, click to add it to the listening list
+The button in the lower left corner will display the menu after floating (including "Filter program to monitor")
 
-When the filter switch is turned off, all programs in the listening list will be recorded at this time
+![](/activity/monitor_1.png)
 
-Clear the list of listening applications without deleting the recorded activities
+### Filter the programs to be monitored
 
-![](/activity/monitor.png)
+After the pop-up window pops up, switch to other program windows to capture the program
+
+Finally, check the corresponding software in the list and confirm it to complete.
+
+![](/activity/monitor_2.png)
 
 
 ## Activity
 
-When switching other windows, window name changes (explorer, browser tab switching) activities are recorded, if there is no mouse or keyboard input for 1 minute, it will enter the idle state
+The application will record all programs in the listening list
 
-Show as free the rest of the time
+Triggered actions include: **Mouse** (except mouse movement), **Keyboard**, **Audio**
 
-Switch the date to view the data of each day, you can switch between line chart and column chart
+When the mouse or keyboard is active, the corresponding active program is recorded as a foreground program. When switching to a different program, the sign in the foreground switches accordingly, and one recording is completed.
 
-The abscissa of the line chart shows the time, and the ordinate shows the sum of the recorded time of the day
+Sometimes you may not perform operations for a period of time, and the foreground program will automatically end its active state after **one minute**
 
-The abscissa of the histogram shows the program name, and the ordinate shows the running time of the program
+However, some programs are still within the scope of recording even though they are not actively operating. When a program plays audio, it is considered a background program (multiple background programs can exist). When playback ends, one recording is completed
 
-When the line chart is displayed, the "Open Log" button is displayed, click to display the corresponding data log of the chart
-
-![](/activity/activity.png)
+Sometimes the foreground and background states exist at the same time. In this case, a recording will be completed only when both states disappear.

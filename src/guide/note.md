@@ -1,78 +1,66 @@
 # Manual timing
 
-## Overview
+Before recording the time, give the collection of records an appropriate name
 
-The chart shows the records of each day
+If the act of reading is regarded as a [plan](./note.md#plan), each book can be regarded as a [label](./note.md#label), and an activity of reading a book It is called [note](./note.md#note)
 
-The time can be switched to the last week or month
-
-Category toggleable plan or label
-
-![](/note/overview.png)
 
 ## Plan
 
-Contains the largest collection of records
+Shows the name, total time, and corresponding color of each plan
 
-When on the current page, more buttons will be displayed at the bottom of the left navigation bar, and a menu (including "Create Plan") will be displayed after hovering
+And to create a plan, you need to move your attention to the menu in the lower left corner, and the floating menu (including "Create Plan")
 
-Hover the mouse over the data block to display edit and delete
+The mouse hovers over the plan to display the edit and delete functions
 
-Each data block contains the name, the total elapsed time of all records, and the color of the plan itself
+Click on the plan to jump to the [note](./note.md#note) details page
 
 ![](/note/plan.png)
 
 ## Label
 
-Contains the thinned collection of records
+Like the previous plan, they have the same function, only the included **scope** is different
 
-When on the current page, more buttons will be displayed at the bottom of the left navigation bar, and a menu (including "Create Label") will be displayed after hovering
+The page shows the name, total time, and corresponding color of each label
 
-Hover the mouse over the data block, display edit, delete, start timing
+Create a label, also in the lower left corner
 
-Each data block contains the name, the total time of all records, the color of the plan it is in, and the list will put the data blocks of the same plan together
+Mouseover label, display edit, delete, start timing functions
+
+Click on the plan to jump to the [note](./note.md#note) details page
+
 
 ![](/note/label.png)
 
 
 ## Note
 
-The smallest unit of timing data, you need to specify a specific plan and a label under the plan before timing
-
-In the plan and tab pages, click the corresponding data block to jump to the record details page
-
 The data list is displayed on the left, and the calendar is displayed on the right
+
+Suspended on a specific row of data, the data can be re-modified or deleted
 
 ![](/note/note.png)
 
-### Datasheets
-
-Suspended on a specific row of data, can be re-modified or deleted
-
 ### Calendar
 
-Year and month can be switched
+The icon in the upper right corner can switch the year and month
 
-+ When switching months, the calendar shows all label colors corresponding to the active day
++ When switching months, the calendar shows all **label colors** corresponding to the active day
 
-+ When switching years, the shade of the calendar color shows the length of the active time
++ When switching the year, the shade of the calendar color shows the length of **active time**
 
 Click on a specific date, the data list slides to the corresponding data
 
-The mouse hover date shows the total time of the day
+Mouseover the date to display the total time spent on the day
 
 
 
 ## Timing
 
-Select the ▶️ button on the page, fill in the required items, and click Start
+Select the ▶️ button to start timing
 
-If you select countdown, a notification will be issued after the specified time is reached, but it will not end automatically (red means the countdown is in progress, and green means the time has passed)
-
-Click the ⏸️ button on the page to end the timer
+Select the ⏸️ button to end the timer
 
 During the timing process, jumping to other pages will not cause the timing to end, and the bottom bar will also display the timing status
-
-Another entry for timing is displayed on the tab page when hovering
 
 ![](/note/time.png)

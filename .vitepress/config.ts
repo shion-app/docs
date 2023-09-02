@@ -28,6 +28,10 @@ export default defineConfig({
                   collapsed: false,
                   items: [
                     {
+                      text: 'Overview',
+                      link: '/guide/overview',
+                    },
+                    {
                       text: 'Manual timing',
                       link: '/guide/note',
                     },
