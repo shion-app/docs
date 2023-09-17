@@ -14,6 +14,9 @@
 + 筛选需要[监听](./activity.md#监听)的软件，展示[活动](./activity.md#活动)状态
 + 图表、日历多种方式显示数据
 
+## 视频
+
+<video src="https://github.com/shion-app/shion/assets/101488209/a4fbf633-9938-4130-b0fc-1b39a15c7ec3" controls="controls" />
 
 
 ## 支持的平台

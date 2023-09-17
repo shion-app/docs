@@ -14,6 +14,9 @@ You can choose to use it lightly, or turn off automatic updates, or wait until t
 + Filter the software that needs [monitoring](./activity.md#monitor), and display the status of [activity](./activity.md#activity)
 + Various ways to display data in charts, calendars
 
+## Video
+
+<video src="https://github.com/shion-app/shion/assets/101488209/a4fbf633-9938-4130-b0fc-1b39a15c7ec3" controls="controls" />
 
 
 ## Supported platforms

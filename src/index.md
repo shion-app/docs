@@ -4,7 +4,7 @@ layout: home
 
 hero:
    name: shion
-   text: Timing software⏳️🚧
+   text: Time tracker⏳️🚧
    tagline: Recording a fallen leaf🍂
    image:
      src: /logo.png
