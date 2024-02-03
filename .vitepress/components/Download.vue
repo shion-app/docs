@@ -37,10 +37,22 @@ fetch('https://api.github.com/repos/shion-app/shion/releases/latest')
 
 
 <style scoped>
+.release-tag {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 2px 8px;
+    margin-left: 10px;
+    background: var(--vp-c-brand);
+    color: #fff;
+    border-radius: 10px;
+    vertical-align: bottom;
+}
+
 .center {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
 }
 .image-bg {
     background-image: var(--vp-home-hero-image-background-image);
