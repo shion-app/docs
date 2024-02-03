@@ -8,11 +8,17 @@ dependencies:
   '@vueuse/core':
     specifier: ^10.7.2
     version: 10.7.2(vue@3.4.15)
+  vue:
+    specifier: ^3.4.15
+    version: 3.4.15(typescript@5.3.3)
 
 devDependencies:
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
+  vite:
+    specifier: ^5.0.12
+    version: 5.0.12
   vitepress:
     specifier: 1.0.0-rc.41
     version: 1.0.0-rc.41(@algolia/client-search@4.22.1)(search-insights@2.13.0)(typescript@5.3.3)

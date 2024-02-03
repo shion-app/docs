@@ -8,14 +8,3 @@
   --vp-home-hero-image-background-image: radial-gradient(#9653cb, #d9fdfe);
   --vp-home-hero-image-filter: blur(40px);
 }
-
-.release-tag {
-  font-size: 14px;
-  font-weight: 700;
-  padding: 4px 6px;
-  margin-left: 6px;
-  background: var(--vp-c-brand);
-  color: #fff;
-  border-radius: 10px;
-  vertical-align: middle;
-}

@@ -5,7 +5,7 @@ export default defineConfig({
   srcDir: './src',
   title: 'shion',
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.svg' }],
   ],
   lastUpdated: true,
   locales: {
@@ -95,7 +95,7 @@ export default defineConfig({
   },
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo.svg',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/shion-app/shion' },
     ],
