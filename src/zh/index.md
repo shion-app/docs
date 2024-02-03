@@ -15,12 +15,12 @@ const options = {
       {
          theme: "brand",
          text: "下载",
-         link: "/download",
+         link: "/zh/download",
       },
       {
          theme: "alt",
          text: "快速开始",
-         link: "/guide/what-is-shion",
+         link: "/zh/guide/what-is-shion",
       },
    ]
 }
