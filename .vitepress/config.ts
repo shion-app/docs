@@ -8,44 +8,49 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.svg' }],
   ],
   lastUpdated: true,
+  cleanUrls: true,
   locales: {
     root: {
       label: 'English',
       lang: 'en',
-      description: 'Timing software ⏳️🚧',
+      description: 'Time tracker',
       themeConfig: {
         sidebar: {
-          '/guide/': [
-            {
-              text: 'Guide',
-              items: [
-                {
-                  text: 'Introduction',
-                  link: '/guide/introduction',
-                },
-                {
-                  text: 'Feature',
-                  collapsed: false,
-                  items: [
-                    {
-                      text: 'Overview',
-                      link: '/guide/overview',
-                    },
-                    {
-                      text: 'Manual timing',
-                      link: '/guide/note',
-                    },
-                    {
-                      text: 'Automatic timing',
-                      link: '/guide/activity',
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
+          '/guide/': {
+            base: '/guide/',
+            items: [
+              {
+                text: 'Guide',
+                items: [
+                  {
+                    text: 'What is shion?',
+                    link: '/what-is-shion',
+                  },
+                  {
+                    text: 'Before launch',
+                    link: '/before-launch',
+                  },
+                  {
+                    text: 'Feature',
+                    collapsed: false,
+                    items: [
+                      {
+                        text: 'Data display',
+                        link: 'data-display',
+                      },
+                      {
+                        text: 'Record',
+                        link: 'record',
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          }
         },
         nav: [
+          { text: 'Guide', link: '/guide/what-is-shion' },
           { text: 'Download', link: '/download' },
         ],
       }
@@ -54,40 +59,44 @@ export default defineConfig({
       label: '中文',
       lang: 'zh',
       link: '/zh/',
-      description: '计时软件⏳️🚧',
+      description: '时间追踪软件',
       themeConfig: {
         sidebar: {
-          '/zh/guide/': [
-            {
-              text: '指南',
-              items: [
-                {
-                  text: '简介',
-                  link: '/zh/guide/introduction',
-                },
-                {
-                  text: '功能',
-                  collapsed: false,
-                  items: [
-                    {
-                      text: '总览',
-                      link: '/zh/guide/overview',
-                    },
-                    {
-                      text: '手动计时',
-                      link: '/zh/guide/note',
-                    },
-                    {
-                      text: '自动计时',
-                      link: '/zh/guide/activity',
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
+          '/zh/guide/': {
+            base: '/zh/guide/',
+            items: [
+              {
+                text: '指南',
+                items: [
+                  {
+                    text: '什么是 shion?',
+                    link: '/what-is-shion',
+                  },
+                  {
+                    text: '在开始之前',
+                    link: '/before-launch',
+                  },
+                  {
+                    text: '功能',
+                    collapsed: false,
+                    items: [
+                      {
+                        text: '数据展示',
+                        link: 'data-display',
+                      },
+                      {
+                        text: '记录',
+                        link: 'record',
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          }
         },
         nav: [
+          { text: '指南', link: '/zh/guide/what-is-shion' },
           { text: '下载', link: '/zh/download' },
         ],
       }
@@ -126,7 +135,7 @@ export default defineConfig({
       }
     },
     footer: {
-      copyright: 'Copyright © 2023 shion-app'
+      copyright: 'Copyright © 2024 shion-app'
     }
   },
 });

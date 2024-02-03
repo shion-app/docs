@@ -20,7 +20,7 @@ const options = {
       {
          theme: "alt",
          text: "快速开始",
-         link: "/guide/introduction",
+         link: "/guide/what-is-shion",
       },
    ]
 }
