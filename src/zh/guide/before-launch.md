@@ -8,7 +8,7 @@
 
 和纸一样洁白，没有明显的边界
 
-![](/assets/zh/overview.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/overview.png)
 
 ## 菜单栏 {#title-bar}
 
@@ -26,4 +26,4 @@
 
 页面默认禁止拖拽，通过解锁使用
 
-![](/assets/zh/drag.gif)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/drag.gif)

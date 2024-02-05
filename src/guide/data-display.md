@@ -4,14 +4,14 @@
 
 Create multiple display cards in the menu bar at the bottom left corner, and the calendar card will have a linkage effect
 
-![](/assets/en/overview.gif)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/overview.gif)
 
 ## Timeline {#timeline}
 
 Through precise filtering, the calendar will display active status
 
-![](/assets/en/filter.gif)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/filter.gif)
 
 Switch to year or month
 
-![](/assets/en/switch-year.gif)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/switch-year.gif)

@@ -4,13 +4,13 @@
 
 Add programs that require monitoring, as mouse, keyboard, and audio activities will trigger recording
 
-![](/assets/en/auto.gif)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/auto.gif)
 
 ## Manual {#manual}
 
 Manual recording and ending
 
-![](/assets/en/manual.gif)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/manual.gif)
 
 ## Moment {#moment}
 
@@ -24,4 +24,4 @@ Diary alike
 
 Display multiple record links
 
-![](/assets/en/link.gif)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/link.gif)

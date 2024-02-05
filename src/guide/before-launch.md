@@ -8,7 +8,7 @@ I hope my interface design won't confuse you😐
 
 Just as white as paper, without obvious boundaries
 
-![](/assets/en/overview.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/overview.png)
 
 ## Title bar {#title-bar}
 
@@ -26,4 +26,4 @@ Typical programming software only has a status bar that displays status and shor
 
 Page default prohibits drag and drop, can be unlocked for use
 
-![](/assets/en/drag.gif)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/drag.gif)
