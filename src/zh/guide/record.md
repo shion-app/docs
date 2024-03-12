@@ -4,6 +4,8 @@
 
 添加需要监听的程序，鼠标、键盘、音频活动会触发记录
 
+shion将会捕捉到你已经打开的软件
+
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/auto.gif)
 
 ## 手动计时 {#manual}

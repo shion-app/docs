@@ -12,7 +12,7 @@ Each data item provides grouping, and you can package the related data together 
 
 ## Before launch {#before-launch}
 
-Before closing this page and using the software directly, it is recommended to read [Before launch](./before-launch.md)，otherwise you may have a question when using, where is the menu?😊
+Before closing this page and using the software directly, it is recommended to read [Before launch](./before-launch.md) 😊
 
 ## Feature {#feature}
 

@@ -1,26 +1,16 @@
 # 在开始之前 {#before-launch}
 
-::: info
-希望我的界面设计不会让你感到困惑😐
-:::
-
 ## 界面 {#ui}
 
 和纸一样洁白，没有明显的边界
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/overview.png)
 
-## 菜单栏 {#title-bar}
+## 使用教程 {#tutorial}
 
-虽然说这里并没有什么好讲的，但我还是需要告诉你**设置**和**开发者工具**在这里
-
-## 导航栏 {#nav-bar}
-
-平平无奇的导航栏，但在最下方藏着本页面的**菜单选项**，存在或不存在，这是个问题
+<video src="https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/tutorial.mp4" controls="controls" />
 
 ## 状态栏 {#status-bar}
-
-典型的编程软件才有的状态栏，显示状态和快捷按钮
 
 ### 拖拽 {#drag}
 
