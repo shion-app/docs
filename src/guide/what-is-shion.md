@@ -10,17 +10,18 @@ Shion is a time tracking software used to record specific situations that occur 
 
 Each data item provides grouping, and you can package the related data together to present them in a clear and organized manner in charts and timelines. Customize your overview interface with multiple charts, so you can have a clearer understanding of the passage of time ⌛
 
-## Before launch {#before-launch}
-
-Before closing this page and using the software directly, it is recommended to read [Before launch](./before-launch.md) 😊
-
 ## Feature {#feature}
 
-+ 📊Overview Data Card
-+ 📅Timeline
-+ 🏷️Record classification
-+ 👀Monitor program activities
-+ 📖Record the moment
++ 📊Customized data card (Github style one-year overview, 30-day single data histogram, daily 24-hour activity display)
++ 📅Timeline + Calendar
++ 👀Automatically monitor program usage time (keyboard, mouse, audio)
++ 🌐Sync browser history (Google Chrome, Microsoft Edge, Firefox)
++ 🏷️Manual recording
++ 📖Diary (🚧)
+
+## Tutorial {#tutorial}
+
+<video src="https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/tutorial.mp4" controls="controls" />
 
 ## Supported platform {#supported-platform}
 

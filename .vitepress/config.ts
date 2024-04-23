@@ -27,10 +27,6 @@ export default defineConfig({
                     link: '/what-is-shion',
                   },
                   {
-                    text: 'Before launch',
-                    link: '/before-launch',
-                  },
-                  {
                     text: 'Feature',
                     collapsed: false,
                     items: [
@@ -41,6 +37,10 @@ export default defineConfig({
                       {
                         text: 'Record',
                         link: 'record',
+                      },
+                      {
+                        text: 'Browser history',
+                        link: 'history',
                       },
                     ],
                   },
@@ -73,10 +73,6 @@ export default defineConfig({
                     link: '/what-is-shion',
                   },
                   {
-                    text: '在开始之前',
-                    link: '/before-launch',
-                  },
-                  {
                     text: '功能',
                     collapsed: false,
                     items: [
@@ -87,6 +83,10 @@ export default defineConfig({
                       {
                         text: '记录',
                         link: 'record',
+                      },
+                      {
+                        text: '浏览器历史记录',
+                        link: 'history',
                       },
                     ],
                   },
