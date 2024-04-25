@@ -16,8 +16,7 @@ Manual recording and ending
 
 ## Moment {#moment}
 
-::: info
-Functional optimization in progress🚧
+::: info Optimization in progress🚧
 :::
 
 Diary alike

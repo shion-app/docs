@@ -1,14 +1,18 @@
 # What is shion? {#what-is-shion}
 
-::: info
-In beta🥳
+::: info In beta🥳
 
 Document from machine translation🤖
 :::
 
-Shion is a time tracking software used to record specific situations that occur during a certain time period. You can manually record what is happening, or have the ship automatically monitor the activity of specific software. Of course, it's not just a simple record of the start and end times, but you can also add text, pictures, and videos like writing a diary
+Shion is a time tracking software that records fragments of your daily life
 
-Each data item provides grouping, and you can package the related data together to present them in a clear and organized manner in charts and timelines. Customize your overview interface with multiple charts, so you can have a clearer understanding of the passage of time ⌛
+## Target audience {#audience}
++ I need software similar to a tomato timer to record the expenditure of learning or focusing on one thing
++ I need software that automatically records the usage time of the software, and records the duration of programming or gaming
++ I need software with diary function that allows me to review past events
+
+In the future, Shion will explore more 🌈
 
 ## Feature {#feature}
 
