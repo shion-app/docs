@@ -12,4 +12,4 @@ This software copies the database of the local browser to backup and retrieve da
 
 Collaborate with automatic monitoring to display on the timeline
 
-![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/timeline.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/timeline.png)
