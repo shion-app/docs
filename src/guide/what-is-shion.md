@@ -23,10 +23,6 @@ In the future, Shion will explore more 🌈
 + 🏷️Manual recording
 + 📖Diary (🚧)
 
-## Tutorial {#tutorial}
-
-<video src="https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/tutorial.mp4" controls="controls" />
-
 ## Supported platform {#supported-platform}
 
 Currently only supports Windows, using [tauri](https://tauri.app/) support cross platform and support in subsequent updates

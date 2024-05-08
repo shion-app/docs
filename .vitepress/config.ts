@@ -31,8 +31,16 @@ export default defineConfig({
                     collapsed: false,
                     items: [
                       {
-                        text: 'Data display',
-                        link: 'data-display',
+                        text: 'Overview',
+                        link: 'overview',
+                      },
+                      {
+                        text: 'Timeline',
+                        link: 'timeline',
+                      },
+                      {
+                        text: 'Collection',
+                        link: 'collection',
                       },
                       {
                         text: 'Record',

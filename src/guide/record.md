@@ -1,28 +1,24 @@
 # Record {#record}
 
-## Auto {#auto}
+## Timer {#timer}
 
-Add programs that require monitoring, as mouse, keyboard, and audio activities will trigger recording
+**Manual timer** page, ordinary clock
 
-Shion will capture the software you have already opened
-
-![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/auto.gif)
-
-## Manual {#manual}
-
-Manual recording and ending
-
-![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/manual.gif)
+![](../..//public/assets/en/record/timer.png)
 
 ## Moment {#moment}
 
-::: info Optimization in progress🚧
+::: info Function optimization 🚧
 :::
 
-Diary alike
+Add text, pictures, videos to record the moments in life
+
+![](../..//public/assets/en/record/moment.png)
 
 ### Link {#link}
 
-Display multiple record links
+Although diaries are classified in the same category, they may not be directly related
 
-![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/link.gif)
+Link diaries through **link**
+
+![](../..//public/assets/en/record/link.png)
