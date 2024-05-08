@@ -77,8 +77,16 @@ export default defineConfig({
                     collapsed: false,
                     items: [
                       {
-                        text: '数据展示',
-                        link: 'data-display',
+                        text: '总览',
+                        link: 'overview',
+                      },
+                      {
+                        text: '时间线',
+                        link: 'timeline',
+                      },
+                      {
+                        text: '数据集合',
+                        link: 'collection',
                       },
                       {
                         text: '记录',

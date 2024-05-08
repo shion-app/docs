@@ -21,10 +21,6 @@ shion是一款时间追踪软件，用它来记录你日常生活的片段
 + 🏷️手动记录
 + 📖日记（🚧）
 
-## 使用教程 {#tutorial}
-
-<video src="https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/tutorial.mp4" controls="controls" />
-
 ## 支持的平台 {#supported-platform}
 
 目前只支持windows，使用[tauri](https://tauri.app/zh-cn/)支持跨平台，在后续更新中支持

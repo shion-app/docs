@@ -1,28 +1,31 @@
 # 记录 {#record}
 
-## 自动计时 {#auto}
+## 计时 {#timer}
 
-添加需要监听的程序，鼠标、键盘、音频活动会触发记录
+**手动计时**页面，平平无奇的时钟
 
-shion将会捕捉到你已经打开的软件
+![](../..//public/assets/zh/record/timer.png)
 
-![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/auto.gif)
-
-## 手动计时 {#manual}
-
-手动记录和结束
-
-![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/manual.gif)
 
 ## 瞬间 {#moment}
 
 ::: info 功能优化中🚧
 :::
 
-类似日记的功能
+添加文字、图片、视频来记录生活发生的瞬间吧
+
+![](../..//public/assets/zh/record/moment.png)
 
 ### 链接 {#link}
 
-将多个记录链接展示
+虽然日记被归在一个门类，但也许直接并没有直接联系
 
-![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/link.gif)
+通过**链接**将日记关联起来吧
+
+![](../..//public/assets/zh/record/link.png)
+
+
+::: info 题外话🤣
++ [摸鱼时间打造一款产品](https://juejin.cn/post/7256879435340890172)
++ [【tauri开发】数据库上的另辟蹊径](https://juejin.cn/post/7287223906367684619)
+:::
