@@ -7,4 +7,4 @@
 该软件通过复制本地浏览器的数据库，以备份获取数据。若刚浏览网页后直接刷新获取数据，可能不会正常运行，特别是在Firefox上
 :::
 
-![](../..//public/assets/zh/history/history.gif)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/history/history.gif)

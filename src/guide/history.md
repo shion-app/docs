@@ -7,4 +7,4 @@ After importing the browser history, it will be automatically pulled when refres
 The software copies the local browser database to back up the data. If you refresh the data directly after browsing the web page, it may not work properly, especially on Firefox
 :::
 
-![](../..//public/assets/en/history/history.gif)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/history/history.gif)

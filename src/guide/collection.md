@@ -8,7 +8,7 @@ Both serve **manual timing**, the former is broader and the latter is more speci
 
 Create a plan and label, then start the 🍅tomato clock
 
-![](../..//public/assets/en/collection/plan-and-label.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/collection/plan-and-label.png)
 
 ## Monitor {#monitor}
 
@@ -18,10 +18,10 @@ When adding, click **Filter programs to monitor** in the **More menu** in the lo
 
 In addition, only **already opened software** will be displayed in the list to be selected
 
-![](../..//public/assets/en/collection/monitor.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/collection/monitor.png)
 
 ## Box {#box}
 
 Collection of diary entries
 
-![](../..//public/assets/en/collection/box.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/collection/box.png)

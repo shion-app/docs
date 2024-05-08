@@ -4,7 +4,7 @@
 
 **手动计时**页面，平平无奇的时钟
 
-![](../..//public/assets/zh/record/timer.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/record/timer.png)
 
 
 ## 瞬间 {#moment}
@@ -14,7 +14,7 @@
 
 添加文字、图片、视频来记录生活发生的瞬间吧
 
-![](../..//public/assets/zh/record/moment.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/record/moment.png)
 
 ### 链接 {#link}
 
@@ -22,7 +22,7 @@
 
 通过**链接**将日记关联起来吧
 
-![](../..//public/assets/zh/record/link.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/record/link.png)
 
 
 ::: info 题外话🤣

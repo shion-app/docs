@@ -8,7 +8,7 @@
 
 创建计划和标签，然后开启🍅番茄时钟吧
 
-![](../..//public/assets/zh/collection/plan-and-label.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/collection/plan-and-label.png)
 
 
 ## 监听 {#monitor}
@@ -19,10 +19,10 @@
 
 另外，只有**已经打开了的软件**才会显示在待选列表里
 
-![](../..//public/assets/zh/collection/monitor.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/collection/monitor.png)
 
 ## 匣子 {#box}
 
 记录日记的集合
 
-![](../..//public/assets/zh/collection/box.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/collection/box.png)
