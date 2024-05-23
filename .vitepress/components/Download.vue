@@ -21,15 +21,15 @@ fetch('https://api.github.com/repos/shion-app/shion/releases/latest')
 <template>
     <div class="center">
         <div class="image-bg"></div>
-        <img class="logo" :src="withBase(theme.logo)"/>
+        <img class="logo" :src="withBase(theme.logo)" />
         <div class="title">
             <div class="name">{{ site.title }}</div>
             <samp class="release-tag">{{ tagName }}</samp>
         </div>
-        <a :href="url">
-            <button class="download" >
+        <a :href="url" class="download-wrapper">
+            <button class="download" :disabled="!url">
                 <img class="icon" src="../assets/windows.svg">
-                <div>Windows</div>
+                <div>Windows 10/11</div>
             </button>
         </a>
     </div>
@@ -87,12 +87,14 @@ fetch('https://api.github.com/repos/shion-app/shion/releases/latest')
     font-size: 32px;
     font-weight: bold;
 }
+.download-wrapper {
+    margin: 20px 0 5px;
+}
 .download {
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    margin: 20px 0 5px;
     padding: 10px 0;
     width: 150px;
     background-color: var(--vp-c-brand);
@@ -101,6 +103,11 @@ fetch('https://api.github.com/repos/shion-app/shion/releases/latest')
 .download:hover {
     background-color: var(--vp-button-brand-hover-bg);
 }
+.download[disabled] {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
 .icon {
     margin-right: 10px;
     width: 18px;    
