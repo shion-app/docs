@@ -6,6 +6,9 @@ export default defineConfig({
   title: 'shion',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.svg' }],
+    ['meta', { property: 'og:url', content: 'https://shion.app' }],
+    ['meta', { property: 'og:image', content: 'https://shion.app/seo.png' }],
+    ['meta', { property: 'og:type', content: 'website' }],
   ],
   lastUpdated: true,
   cleanUrls: true,
@@ -13,7 +16,7 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
-      description: 'Time tracker',
+      description: 'Time tracker | 时间追踪软件',
       themeConfig: {
         sidebar: {
           '/guide/': {
