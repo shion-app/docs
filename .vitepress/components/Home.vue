@@ -28,7 +28,8 @@
 <script setup lang="ts">
 import VPButton from './VPButton.vue'
 import DynamicLogo from './DynamicLogo.vue'
-import { ref } from 'vue';
+
+import latest from '../latest.json'
 
 interface HeroAction {
     theme?: 'brand' | 'alt'
@@ -46,14 +47,7 @@ defineProps<{
 
 }>()
 
-const tagName = ref('')
-
-async function init() {
-    const data = await (await fetch('https://api.github.com/repos/shion-app/shion/releases/latest')).json()
-    tagName.value = data.tag_name
-}
-
-init()
+const tagName = `v${latest.version}`
 </script>
 
 

@@ -1,21 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { withBase, useData } from 'vitepress'
+
+import latest from '../latest.json'
 
 const { theme, site } = useData()
 
-const url = ref('')
-const tagName = ref('')
+const url = `https://github.com/shion-app/shion/releases/download/v${latest.version}/shion_${latest.version}_x64-setup.exe`
 
-fetch('https://api.github.com/repos/shion-app/shion/releases/latest')
-    .then((res) => res.json())
-    .then(({ tag_name, assets }) => {
-        tagName.value = tag_name
-        const asset = assets.find(({ browser_download_url }) => browser_download_url.includes('setup.exe'))
-        if (!asset) return
-        const { browser_download_url } = asset
-        url.value = browser_download_url
-    })
+const tagName = `v${latest.version}`
+
 </script>
 
 <template>
