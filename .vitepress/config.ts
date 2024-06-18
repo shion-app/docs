@@ -58,9 +58,28 @@ export default defineConfig({
                 ],
               },
             ],
+          },
+          '/chat/': {
+            base: '/chat/',
+            items: [
+              {
+                text: 'Chat',
+                items: [
+                  {
+                    text: 'Development review',
+                    link: '/development-review',
+                  },
+                  {
+                    text: 'Payment model',
+                    link: '/payment-model',
+                  },
+                ]
+              }
+            ]
           }
         },
         nav: [
+          { text: 'Chat', link: '/chat/development-review' },
           { text: 'Guide', link: '/guide/what-is-shion' },
           { text: 'Download', link: '/download' },
         ],
@@ -112,9 +131,28 @@ export default defineConfig({
                 ],
               },
             ],
+          },
+          '/zh/chat/': {
+            base: '/zh/chat/',
+            items: [
+              {
+                text: '闲谈',
+                items: [
+                  {
+                    text: '开发回顾',
+                    link: '/development-review',
+                  },
+                  {
+                    text: '付费模式',
+                    link: '/payment-model',
+                  },
+                ]
+              }
+            ]
           }
         },
         nav: [
+          { text: '闲谈', link: '/zh/chat/development-review' },
           { text: '指南', link: '/zh/guide/what-is-shion' },
           { text: '下载', link: '/zh/download' },
         ],

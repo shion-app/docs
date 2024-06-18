@@ -21,6 +21,10 @@ shion是一款时间追踪软件，用它来记录你日常生活的片段
 + 🏷️手动记录
 + 📖日记（🚧）
 
+## 闲谈 {#chat}
+
+我会在[这里](/zh/chat/development-review)发表一些想法，如果你有兴趣的话
+
 ## 支持的平台 {#supported-platform}
 
 目前只支持windows，使用[tauri](https://tauri.app/zh-cn/)支持跨平台，在后续更新中支持

@@ -23,6 +23,10 @@ In the future, Shion will explore more 🌈
 + 🏷️Manual recording
 + 📖Diary (🚧)
 
+## Chat {#chat}
+
+I will post some thoughts [here](/chat/development-review) if you are interested.
+
 ## Supported platform {#supported-platform}
 
 Currently only supports Windows, using [tauri](https://tauri.app/) support cross platform and support in subsequent updates
