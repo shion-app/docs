@@ -1,109 +1,62 @@
 <script setup lang="ts">
-import { withBase, useData } from 'vitepress'
+interface Model {
+    level: string
+    desc: string
+    features: string[]
+    url: string
+    logo: string
+    action: string
+    tip?: string
+}
 
-import latest from '../latest.json'
-
-const { theme, site } = useData()
-
-const url = `https://github.com/shion-app/shion/releases/download/v${latest.version}/shion_${latest.version}_x64-setup.exe`
-
-const tagName = `v${latest.version}`
+const props = defineProps<{
+    list: Model[]
+}>()
 
 </script>
 
 <template>
-    <div class="center">
-        <div class="image-bg"></div>
-        <img class="logo" :src="withBase(theme.logo)" />
-        <div class="title">
-            <div class="name">{{ site.title }}</div>
-            <samp class="release-tag">{{ tagName }}</samp>
+    <div class="mt-6 flex flex-col items-center sm:flex-row sm:justify-evenly sm:items-stretch">
+        <div class="w-[350px] sm:w-[400px] mb-8" v-for="{ level, url, action, features, desc, logo, tip } in props.list"
+            :key="level">
+            <div class="bg-white text-black rounded-lg  shadow-xl overflow-hidden min-h-[400px] h-full flex flex-col ">
+                <div class="text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
+                    <h1 class="text-2xl font-medium uppercase p-3 pb-0 text-center tracking-wide">
+                        {{ level }}
+                    </h1>
+                    <div class="mt-2 text-gray-400 text-center">
+                        {{ desc }}
+                    </div>
+                </div>
+                <div class="flex flex-wrap mt-3 px-6 flex-1">
+                    <ul>
+                        <li class="flex items-center" v-for="content in features" :key="content">
+                            <div class=" rounded-full p-2 fill-current text-green-700">
+                                <svg class="w-6 h-6 align-middle" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                            </div>
+                            <span class="text-gray-700 text-lg ml-3">{{ content }}</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class=" flex justify-center items-center p-6  uppercase">
+                    <a :href="url">
+                        <button class="mt-3 text-lg font-semibold 
+	bg-[var(--vp-c-brand-1)] w-full text-white rounded-lg 
+	px-6 py-3 shadow-xl flex items-center">
+                            <img class="w-6 h-6 mr-4" :src="logo">
+                            {{ action }}
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div v-if="tip" class="mt-4 text-gray-400 text-sm text-right">{{ tip }}</div>
         </div>
-        <a :href="url" class="download-wrapper">
-            <button class="download" :disabled="!url">
-                <img class="icon" src="../assets/windows.svg">
-                <div>Windows 10/11</div>
-            </button>
-        </a>
     </div>
+
 </template>
-
-
-<style scoped>
-.release-tag {
-    font-size: 14px;
-    font-weight: 700;
-    padding: 2px 8px;
-    margin-left: 10px;
-    background: var(--vp-c-brand);
-    color: #fff;
-    border-radius: 10px;
-    vertical-align: bottom;
-}
-
-.center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
-}
-.image-bg {
-    background-image: var(--vp-home-hero-image-background-image);
-    filter: var(--vp-home-hero-image-filter);
-    width: 192px;
-    height: 192px;
-    position: absolute;
-}
-.logo {
-    max-width: 192px;
-    max-height: 192px;
-    z-index: 1;
-}
-@media (min-width: 640px) {
-    .logo {
-        max-width: 256px;
-        max-height: 256px;
-    }
-    .image-bg {
-        width: 256px;
-        height: 256px;
-    }
-}
-.title {
-    display: flex;
-    align-items: center;
-    margin: 40px 0;
-}
-.name {
-    color: var(--vp-c-brand);
-    margin-right: 4px;
-    font-size: 32px;
-    font-weight: bold;
-}
-.download-wrapper {
-    margin: 20px 0 5px;
-}
-.download {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    padding: 10px 0;
-    width: 150px;
-    background-color: var(--vp-c-brand);
-    border-radius: 6px;
-}
-.download:hover {
-    background-color: var(--vp-button-brand-hover-bg);
-}
-.download[disabled] {
-    opacity: 0.4;
-    cursor: not-allowed;
-}
-
-.icon {
-    margin-right: 10px;
-    width: 18px;    
-    height: 18px;    
-}
-</style>
