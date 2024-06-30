@@ -74,6 +74,15 @@ export default defineConfig({
                   },
                 ],
               },
+              {
+                text: 'Troubleshooting & FAQ',
+                items: [
+                  {
+                    text: 'General',
+                    link: '/general',
+                  },
+                ],
+              },
             ],
           },
           '/chat/': {
@@ -144,6 +153,15 @@ export default defineConfig({
                         link: 'history',
                       },
                     ],
+                  },
+                ],
+              },
+              {
+                text: '故障排除和常见问题解答',
+                items: [
+                  {
+                    text: '常规',
+                    link: '/general',
                   },
                 ],
               },
