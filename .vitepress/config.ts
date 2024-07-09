@@ -47,6 +47,10 @@ export default defineConfig({
                     link: '/what-is-shion',
                   },
                   {
+                    text: 'Early access',
+                    link: '/early-access',
+                  },
+                  {
                     text: 'Feature',
                     collapsed: false,
                     items: [
@@ -57,6 +61,10 @@ export default defineConfig({
                       {
                         text: 'Timeline',
                         link: 'timeline',
+                      },
+                      {
+                        text: 'Timeblock',
+                        link: 'timeblock',
                       },
                       {
                         text: 'Collection',
@@ -129,6 +137,10 @@ export default defineConfig({
                     link: '/what-is-shion',
                   },
                   {
+                    text: '抢先体验',
+                    link: '/early-access',
+                  },
+                  {
                     text: '功能',
                     collapsed: false,
                     items: [
@@ -139,6 +151,10 @@ export default defineConfig({
                       {
                         text: '时间线',
                         link: 'timeline',
+                      },
+                      {
+                        text: '时间块',
+                        link: 'timeblock',
                       },
                       {
                         text: '数据集合',

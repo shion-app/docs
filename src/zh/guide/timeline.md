@@ -1,6 +1,6 @@
-# 总览 {#timeline}
+# 时间线 {#timeline}
 
-将**手动计时**、**自动计时**、**浏览器历史**的按时间展示，与右侧日历进行联动
+将**手动计时**、**自动计时**、**浏览器历史**的数据按时间展示，与右侧日历进行联动
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/timeline/timeline.png)
 

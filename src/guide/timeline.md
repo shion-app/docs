@@ -1,4 +1,4 @@
-# Overview {#timeline}
+# Timeline {#timeline}
 
 Link **manual timing**, **automatic timing**, **browser history** by time display with the calendar on the right
 
