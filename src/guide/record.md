@@ -8,7 +8,7 @@
 
 ## Moment {#moment}
 
-::: info Function optimization 🚧
+::: info Function optimization 
 :::
 
 Add text, pictures, videos to record the moments in life

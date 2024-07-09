@@ -29,12 +29,11 @@ const list = [
         desc: 'For advanced users',
         features: [
             'All features of the free version',
-            'Early Access',
+            '📅Timeblock'
         ],
         url: 'https://store.steampowered.com/app/3026040/shion/',
         action: 'Jump to the store',
         logo: steam,
-        tip: `*Because I haven't started yet, there are no new features in the early access`
     }
 ]
 </script>
