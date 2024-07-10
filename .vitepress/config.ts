@@ -9,23 +9,6 @@ export default defineConfig({
     ['meta', { property: 'og:url', content: 'https://shion.app' }],
     ['meta', { property: 'og:image', content: 'https://shion.app/seo.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    [
-      'script',
-      {},
-      `
-        if (sessionStorage.getItem('languageRedirect') != 'true') {
-          sessionStorage.setItem('languageRedirect', 'true');
-          const userLang = navigator.language;
-          const baseLang = userLang.split('-')[0];
-          const languageMap = {
-            'zh': '/zh/',
-          };
-          if (location.pathname == '/' && languageMap[baseLang]) {
-            location.href = languageMap[baseLang];
-          }
-        }
-      `
-    ]
   ],
   lastUpdated: true,
   cleanUrls: true,
