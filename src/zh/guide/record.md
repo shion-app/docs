@@ -6,6 +6,9 @@
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/record/timer.png)
 
+::: tip 如何修改已有的记录?
+在**时间线**页面，点击**数据分组**，将会出现针对**手动记录**修改的按钮
+:::
 
 ## 瞬间 {#moment}
 

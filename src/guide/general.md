@@ -18,7 +18,7 @@ Submit it on [github](https://github.com/shion-app/shion/issues), and you can se
 
 The log path changes from `hanaTsuk1.shion` to `hanaTsuk1.shion.pro`
 
-Submit it on [steam](https://steamcommunity.com/app/3026040/discussions/), and you can search whether the same problem already exists
+Submit it on [steam](https://steamcommunity.com/app/3026040/discussions/) or [github](https://github.com/shion-app/shion/issues), and you can search whether the same problem already exists
 
 ## How to migrate data?
 

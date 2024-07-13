@@ -20,7 +20,7 @@
 
 日志路径从`hanaTsuk1.shion`变为`hanaTsuk1.shion.pro`
 
-提交在[steam](https://steamcommunity.com/app/3026040/discussions/)上，同时可以搜索是否已经存在相同问题
+提交在[steam](https://steamcommunity.com/app/3026040/discussions/)或者[github](https://github.com/shion-app/shion/issues)上，同时可以搜索是否已经存在相同问题
 
 
 
