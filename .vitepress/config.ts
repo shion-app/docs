@@ -50,6 +50,10 @@ export default defineConfig({
                         link: 'timeblock',
                       },
                       {
+                        text: 'Review',
+                        link: 'review',
+                      },
+                      {
                         text: 'Collection',
                         link: 'collection',
                       },
@@ -89,6 +93,10 @@ export default defineConfig({
                   {
                     text: 'Payment model',
                     link: '/payment-model',
+                  },
+                  {
+                    text: 'Imperfect Automation',
+                    link: '/imperfect-automation',
                   },
                 ]
               }
@@ -140,6 +148,10 @@ export default defineConfig({
                         link: 'timeblock',
                       },
                       {
+                        text: '回顾',
+                        link: 'review',
+                      },
+                      {
                         text: '数据集合',
                         link: 'collection',
                       },
@@ -179,6 +191,10 @@ export default defineConfig({
                   {
                     text: '付费模式',
                     link: '/payment-model',
+                  },
+                  {
+                    text: '不完美的自动化',
+                    link: '/imperfect-automation',
                   },
                 ]
               }
