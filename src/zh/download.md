@@ -31,6 +31,7 @@ const list = [
         features: [
             '免费版所有功能',
             '📅时间块',
+            '🛒回顾模式',
         ],
         url: 'https://store.steampowered.com/app/3026040/shion/',
         action: '跳转至商店',

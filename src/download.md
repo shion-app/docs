@@ -29,7 +29,8 @@ const list = [
         desc: 'For advanced users',
         features: [
             'All features of the free version',
-            '📅Timeblock'
+            '📅Timeblock',
+            '🛒Review mode',
         ],
         url: 'https://store.steampowered.com/app/3026040/shion/',
         action: 'Jump to the store',
