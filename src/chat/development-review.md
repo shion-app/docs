@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Development review {#development-review}
 
 For a long time, I have been looking for a goal or direction. It can be a way to kill time or a way to transform people.

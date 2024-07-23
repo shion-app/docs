@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Imperfect Automation {#imperfect-automation}
 
 Looking back at the choices I made in the past at this point in time, I still can't choose a better one. All I get from the limited choices is trade-offs

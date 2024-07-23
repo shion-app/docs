@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # Payment model {#payment-model}
 
 During the early development year, all the needs came from me, and I was the only user. With the exposure in the past month, it has attracted a wave of users, many of whom have constructive suggestions, and there are also many problems that I have never encountered along the way. It is precisely because of these voices that I have the reason to continue to optimize

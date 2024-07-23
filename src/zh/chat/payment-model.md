@@ -1,3 +1,7 @@
+---
+comment: true
+---
+
 # 付费模式 {#payment-model}
 
 
