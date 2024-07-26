@@ -11,3 +11,9 @@
 接下来的功能篇章，带有以下标识的功能都只在进阶版才能使用
 
 [![抢先体验](https://img.shields.io/badge/%E6%8A%A2%E5%85%88%E4%BD%93%E9%AA%8C-%237246de)](/zh/guide/early-access)
+
+
+## 功能 {#feature}
+
++ [时间块](./timeblock.md)
++ [回顾模式](./review.md)

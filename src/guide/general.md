@@ -20,6 +20,14 @@ The log path changes from `hanaTsuk1.shion` to `hanaTsuk1.shion.pro`
 
 Submit it on [steam](https://steamcommunity.com/app/3026040/discussions/) or [github](https://github.com/shion-app/shion/issues), and you can search whether the same problem already exists
 
+Or in `Help`, click `Open Developer Tools`, find `Console` in the upper column, and look for errors with a red background. (I usually recommend sending the full log file.)
+
+## The first time you open the software, it is blank
+
+You may have encountered the same situation as [this user](https://github.com/shion-app/shion/issues/36), which cannot be solved for the time being
+
+If not, you can use the shortcut key `ctrl+shift+i` to open the developer tool
+
 ## How to migrate data?
 
 For example, I use the open source version and now want to migrate the data to the advanced version
@@ -45,7 +53,3 @@ All data comes from the browser's local database. You can open the browser's his
 ## Windows Security Center prompts virus
 
 Normal phenomenon, the software is not signed, please confirm whether to use it
-
-## The first time you open the software, it is blank
-
-You may have encountered the same situation as [this user](https://github.com/shion-app/shion/issues/36), which cannot be solved for the time being

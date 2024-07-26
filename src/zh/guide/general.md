@@ -23,6 +23,14 @@
 提交在[steam](https://steamcommunity.com/app/3026040/discussions/)或者[github](https://github.com/shion-app/shion/issues)上，同时可以搜索是否已经存在相同问题
 
 
+或者在`帮助`中，点击`打开开发者工具`，在上方一栏中找到`控制台`，寻找红色背景的报错（通常我更加建议发送完整的日志文件）
+
+## 第一次打开软件一片空白
+
+你可能遇到了和[这位用户](https://github.com/shion-app/shion/issues/36)一样的情况，暂时无法解决
+
+若不是，可以快捷键`ctrl+shift+i`打卡开发者工具
+
 
 ## 如何进行数据迁移？
 
@@ -62,6 +70,4 @@
 
 
 
-## 第一次打开软件一片空白
 
-你可能遇到了和[这位用户](https://github.com/shion-app/shion/issues/36)一样的情况，暂时无法解决
