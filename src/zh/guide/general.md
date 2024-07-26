@@ -29,7 +29,7 @@
 
 你可能遇到了和[这位用户](https://github.com/shion-app/shion/issues/36)一样的情况，暂时无法解决
 
-若不是，可以快捷键`ctrl+shift+i`打卡开发者工具
+若不是，可以快捷键`ctrl+shift+i`打开开发者工具
 
 
 ## 如何进行数据迁移？
