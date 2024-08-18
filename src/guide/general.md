@@ -34,6 +34,17 @@ For example, I use the open source version and now want to migrate the data to t
 
 Click `View`-`Import and Export`, export the data as a compressed package in the `Open Source Version`, and then import the data in the `Advanced Version`
 
+## Why filter out the automatic recording programs, and some software don't have it?
+
+If there is a shield icon in the lower right corner of the software startup icon, it means you need to start shion `as an administrator`. If you have already started shion, you need to click Exit in the tray in the lower right corner, right-click the shion icon again, and then click `Run as Administrator`
+
+::: warning Is there any more convenient way?
+
+Currently, after starting `Startup` in `Settings`, you can choose `As Administrator`, but after testing, it will occasionally fail to start normally, so it is not recommended to enable this option
+
+So the only way at present is to manually right-click `Run as Administrator`
+:::
+
 ## Why is there no automatic recording of program activities?
 
 In the `Monitoring` page of the `Data Collection`, confirm that you have added the program to be recorded
