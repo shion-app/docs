@@ -65,6 +65,10 @@ export default defineConfig({
                         text: 'Browser history',
                         link: 'history',
                       },
+                      {
+                        text: 'Extension',
+                        link: 'extension',
+                      },
                     ],
                   },
                 ],
@@ -175,6 +179,10 @@ export default defineConfig({
                       {
                         text: '浏览器历史记录',
                         link: 'history',
+                      },
+                      {
+                        text: '扩展',
+                        link: 'extension',
                       },
                     ],
                   },
