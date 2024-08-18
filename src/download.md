@@ -19,6 +19,7 @@ const list = [
             '👀Automatic monitoring',
             '🌐Synchronize browser history',
             '📖Diary',
+            '🖥️Third-party application integration',
         ],
         url: `https://github.com/shion-app/shion/releases/download/v${latest.version}/shion_${latest.version}_x64-setup.exe`,
         action: 'Windows 10/11 Download',

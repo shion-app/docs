@@ -23,6 +23,6 @@
 
 ## 匣子 {#box}
 
-记录日记的集合
-
-![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/collection/box.png)
+::: info 重写🚧
+暂不可使用
+:::

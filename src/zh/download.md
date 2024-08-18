@@ -20,6 +20,7 @@ const list = [
             '👀自动监听',
             '🌐同步浏览器历史',
             '📖日记',
+            '🖥️第三方应用接入',
         ],
         url: `https://github.com/shion-app/shion/releases/download/v${latest.version}/shion_${latest.version}_x64-setup.exe`,
         action: 'Windows 10/11 下载',

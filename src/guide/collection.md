@@ -22,6 +22,6 @@ In addition, only **already opened software** will be displayed in the list to b
 
 ## Box {#box}
 
-Collection of diary entries
-
-![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/collection/box.png)
+::: info rewrite 🚧
+Not available for now
+:::
