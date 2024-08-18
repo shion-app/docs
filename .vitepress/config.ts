@@ -70,6 +70,15 @@ export default defineConfig({
                 ],
               },
               {
+                text: 'Integration',
+                items: [
+                  {
+                    text: 'Api docs',
+                    link: '/api',
+                  },
+                ],
+              },
+              {
                 text: 'Troubleshooting & FAQ',
                 items: [
                   {
@@ -164,6 +173,15 @@ export default defineConfig({
                         link: 'history',
                       },
                     ],
+                  },
+                ],
+              },
+              {
+                text: '第三方应用接入',
+                items: [
+                  {
+                    text: '接口说明',
+                    link: '/api',
                   },
                 ],
               },
