@@ -107,6 +107,10 @@ export default defineConfig({
                     text: 'Imperfect Automation',
                     link: '/imperfect-automation',
                   },
+                  {
+                    text: 'I have a dream',
+                    link: '/i-have-a-dream',
+                  },
                 ]
               }
             ]
@@ -213,6 +217,10 @@ export default defineConfig({
                   {
                     text: '不完美的自动化',
                     link: '/imperfect-automation',
+                  },
+                  {
+                    text: '我有一个梦想',
+                    link: '/i-have-a-dream',
                   },
                 ]
               }
