@@ -8,7 +8,9 @@ Quickly understand the recorded data through custom charts
 
 ## Active Status Calendar {#active-status-calendar}
 
-Use github-style charts to record the total time spent on specific projects every day, and the depth of the color represents the duration. When recording the data type **moment**, the border of the column for the day is marked with the theme color
+Use github-style charts to record the total time spent on specific projects every day, and the depth of the color represents the duration
+
+The purple border indicates that there is note data for that day, which has been taken over by the extension [obsidian](./obsidian.md)
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/overview/active-status-calendar.png)
 

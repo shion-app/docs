@@ -14,12 +14,12 @@ const list = [
         desc: 'Open source community, for new users',
         features: [
             '📊Custom data card',
-            '📅Timeline + Calendar',
+            '📅Timeline',
             '🏷️Manual recording',
             '👀Automatic monitoring',
             '🌐Synchronize browser history',
-            '📖Diary',
             '🖥️Third-party application integration',
+            '🧰Extension（dandanplay, obsidian）'
         ],
         url: `https://github.com/shion-app/shion/releases/download/v${latest.version}/shion_${latest.version}_x64-setup.exe`,
         action: 'Windows 10/11 Download',

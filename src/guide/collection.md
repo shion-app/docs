@@ -20,8 +20,6 @@ In addition, only **already opened software** will be displayed in the list to b
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/collection/monitor.png)
 
-## Box {#box}
-
-::: info rewrite 🚧
-Not available for now
+::: tip
+You can add a whitelist in the settings, so you don’t have to manually add the software you want to monitor
 :::

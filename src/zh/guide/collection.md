@@ -21,8 +21,6 @@
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/collection/monitor.png)
 
-## 匣子 {#box}
-
-::: info 重写🚧
-暂不可使用
+::: tip
+在设置中可以添加白名单，之后可以不用手动添加要监听的软件
 :::

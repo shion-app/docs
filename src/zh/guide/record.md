@@ -2,7 +2,9 @@
 
 ## 计时 {#timer}
 
-**手动计时**页面，平平无奇的时钟
+**手动计时**页面，通过选择计划和标签进行手动记录一段时间
+
+可以选择计时等到任务结束后手动停止，也可以选择直接录入起始时间
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/record/timer.png)
 
@@ -12,6 +14,4 @@
 
 ## 瞬间 {#moment}
 
-::: info 重写🚧
-暂不可使用
-:::
+原本的笔记功能，已由扩展[obsidian](./obsidian.md)接管

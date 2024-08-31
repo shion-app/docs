@@ -8,7 +8,9 @@
 
 ## 活跃状态日历 {#active-status-calendar}
 
-采用github风格的图表，记录每天具体项目花费时间总和，颜色的深浅代表时长。当记录下数据类型**瞬间**时，当天一栏的边框由主题色标识
+采用github风格的图表，记录每天具体项目花费时间总和，颜色的深浅代表时长
+
+紫色边框代表当天有笔记数据，已由扩展[obsidian](./obsidian.md)接管
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/overview/active-status-calendar.png)
 

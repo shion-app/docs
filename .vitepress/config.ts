@@ -65,11 +65,21 @@ export default defineConfig({
                         text: 'Browser history',
                         link: 'history',
                       },
-                      {
-                        text: 'Extension',
-                        link: 'extension',
-                      },
                     ],
+                  },
+                ],
+              },
+              {
+                text: 'Extension',
+                collapsed: false,
+                items: [
+                  {
+                    text: 'Dandanplay',
+                    link: 'dandanplay',
+                  },
+                  {
+                    text: 'Obsidian',
+                    link: 'obsidian',
                   },
                 ],
               },
@@ -180,11 +190,21 @@ export default defineConfig({
                         text: '浏览器历史记录',
                         link: 'history',
                       },
-                      {
-                        text: '扩展',
-                        link: 'extension',
-                      },
                     ],
+                  },
+                ],
+              },
+              {
+                text: '扩展',
+                collapsed: false,
+                items: [
+                  {
+                    text: '弹弹play',
+                    link: 'dandanplay',
+                  },
+                  {
+                    text: 'Obsidian',
+                    link: 'obsidian',
                   },
                 ],
               },
