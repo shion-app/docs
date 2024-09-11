@@ -25,7 +25,7 @@ In the future, Shion will explore more 🌈
 + 🌐Sync browser history (Google Chrome, Microsoft Edge, Firefox)
 + 🏷️Manual recording
 + 🖥️Third-party application integration
-+ 🧰Extension（dandanplay, obsidian）
++ 🧰Extension（dandanplay, obsidian, apple calendar🍎）
 
 ## Chat {#chat}
 

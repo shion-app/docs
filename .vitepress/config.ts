@@ -81,6 +81,10 @@ export default defineConfig({
                     text: 'Obsidian',
                     link: 'obsidian',
                   },
+                  {
+                    text: 'Calendar',
+                    link: 'calendar',
+                  },
                 ],
               },
               {
@@ -205,6 +209,10 @@ export default defineConfig({
                   {
                     text: 'Obsidian',
                     link: 'obsidian',
+                  },
+                  {
+                    text: '日历',
+                    link: 'calendar',
                   },
                 ],
               },

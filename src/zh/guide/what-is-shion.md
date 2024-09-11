@@ -23,7 +23,7 @@ shion不是一款todo软件，只负责记录**已经发生**和**正在发生**
 + 🌐同步浏览器历史（Google Chrome、Microsoft Edge、Firefox）
 + 🏷️手动记录
 + 🖥️第三方应用接入
-+ 🧰扩展（弹弹play、obsidian）
++ 🧰扩展（弹弹play、obsidian、苹果日历🍎）
 
 ## 闲谈 {#chat}
 

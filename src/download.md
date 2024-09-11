@@ -32,6 +32,7 @@ const list = [
             'All features of the free version',
             '📅Timeblock',
             '🛒Review mode',
+            '🧰Extension（apple calendar🍎）'
         ],
         url: 'https://store.steampowered.com/app/3026040/shion/',
         action: 'Jump to the store',
