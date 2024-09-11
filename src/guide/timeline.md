@@ -30,6 +30,6 @@ When data of the same type is gathered together, it will be automatically groupe
 
 ## Search {#search}
 
-Search only for **browser history**
+For searches of **browser history**, **moment**, and **remark**, you can also jump to the corresponding time by clicking on the corresponding search result.
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/timeline/search.png)

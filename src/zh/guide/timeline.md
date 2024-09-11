@@ -33,7 +33,7 @@
 
 ## 搜索 {#search}
 
-仅针对**浏览器历史记录**的搜索
+针对**浏览器历史记录**、**瞬间**、**备注**的搜索，通过点击相应的搜索结果，还可以跳转至相应时间
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/timeline/search.png)
 
