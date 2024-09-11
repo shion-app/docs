@@ -20,7 +20,7 @@ shion不是一款todo软件，只负责记录**已经发生**和**正在发生**
 + 📊自定义数据卡片（github风格一年概览、30天单项数据柱状图、每日24小时活动展示）
 + 📅时间线、时间块
 + 👀自动监听程序使用时间（键盘、鼠标、音频）
-+ 🌐同步浏览器历史（Google Chrome、Microsoft Edge、Firefox）
++ 🌐同步浏览器历史（Google Chrome、Microsoft Edge、Firefox、Arc）
 + 🏷️手动记录
 + 🖥️第三方应用接入
 + 🧰扩展（弹弹play、obsidian、苹果日历🍎）

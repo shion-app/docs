@@ -22,7 +22,7 @@ In the future, Shion will explore more 🌈
 + 📊Customized data card (Github style one-year overview, 30-day single data histogram, daily 24-hour activity display)
 + 📅Timeline, Timeblock
 + 👀Automatically monitor program usage time (keyboard, mouse, audio)
-+ 🌐Sync browser history (Google Chrome, Microsoft Edge, Firefox)
++ 🌐Sync browser history (Google Chrome, Microsoft Edge, Firefox, Arc)
 + 🏷️Manual recording
 + 🖥️Third-party application integration
 + 🧰Extension（dandanplay, obsidian, apple calendar🍎）
