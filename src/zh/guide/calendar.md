@@ -27,5 +27,11 @@
 
 :::
 
+::: warning 为什么显示的数据和苹果日历不同?
+
+本地上传的数据和苹果日历接收到的数据是一样的，但是本地会对**相邻类别**的数据进行拼接展示，所以会有不同
+
+:::
+
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/extension/calendar/setting.png)

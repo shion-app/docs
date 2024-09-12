@@ -26,4 +26,10 @@ This means that if you modify the iCloud calendar list (such as changing the nam
 
 :::
 
+::: warning Why is the displayed data different from Apple Calendar?
+
+The data uploaded locally is the same as the data received by Apple Calendar, but the local will splice and display the data of **adjacent categories**, so there will be differences
+
+:::
+
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/extension/calendar/setting.png)
