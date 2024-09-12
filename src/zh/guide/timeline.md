@@ -2,6 +2,8 @@
 
 将**手动计时**、**自动计时**、**浏览器历史**、**应用备注**、**obsidian笔记**的数据按时间展示，与右侧日历进行联动
 
+通过左侧图标可对各项进行不同操作
+
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/timeline/timeline.png)
 
 

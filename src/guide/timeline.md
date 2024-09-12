@@ -2,6 +2,8 @@
 
 Link **manual timing**, **automatic timing**, **browser history**, **application remark**, **obsidian note** by time display with the calendar on the right
 
+You can perform different operations on each item through the icons on the left
+
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/timeline/timeline.png)
 
 ## Filter {#filter}
