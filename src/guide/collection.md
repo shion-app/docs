@@ -23,3 +23,9 @@ In addition, only **already opened software** will be displayed in the list to b
 ::: tip
 You can add a whitelist in the settings, so you don’t have to manually add the software you want to monitor
 :::
+
+## Dimension {#dimension}
+
+Sometimes you may need another way to organize **manual timing** and **automatic monitoring** more freely
+
+Dimension provides **mark** function, so that the data under **label** and **monitor** pages can be classified into different sets

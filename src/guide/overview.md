@@ -37,3 +37,7 @@ Same as **single category bar chart**, but displays data in text form
 Charts showing the summary of the data collection of **manual timing** and **automatic timing** in recent days (when there are too many types of data, only the first 12 items **legend** will be displayed)
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/overview/recent-activity-pie.png)
+
+## Single Category Heatmap {#single-category-heatmap}
+
+Similar to the active status calendar, a heatmap is used to display a single set of data.

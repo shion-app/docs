@@ -40,3 +40,7 @@
 展示**手动计时**和**自动计时**的数据集合最近几天总结的图表（当数据种类过多时，仅展示前12项**图例**）
 
 ![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/overview/recent-activity-pie.png)
+
+## 单独类别热力图 {#single-category-heatmap}
+
+同活跃状态日历类似，以热力图展示单个集合数据
