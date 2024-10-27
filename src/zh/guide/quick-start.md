@@ -14,7 +14,7 @@
 
 [详情](./record.md#automatic)
 
-![](../../public/assets/zh/record/monitor.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/record/monitor.png)
 
 ### 手动记录
 
@@ -22,7 +22,7 @@
 
 [详情](./record.md#manual)
 
-![](../../public/assets/zh/record/label.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/record/label.png)
 
 ### 浏览器记录
 
@@ -30,7 +30,7 @@
 
 [详情](./record.md#browser)
 
-![](../../public/assets/zh/record/history.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/record/history.png)
 
 ### 笔记记录
 
@@ -46,7 +46,7 @@
 
 [详情](./display.md#chart)
 
-![](../../public/assets/zh/display/chart.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/display/chart.png)
 
 ### 时间线展示
 
@@ -54,7 +54,7 @@
 
 [详情](./display.md#timeline)
 
-![](../../public/assets/zh/display/timeline.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/display/timeline.png)
 
 ### 时间块展示
 
@@ -62,5 +62,5 @@
 
 [详情](./display.md#timeblock)
 
-![](../../public/assets/zh/display/timeblock.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/zh/display/timeblock.png)
 

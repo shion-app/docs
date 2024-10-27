@@ -14,7 +14,7 @@ Their mouse, keyboard, and audio activities will all be monitored
 
 [Details](./record.md#automatic)
 
-![](../../public/assets/en/record/monitor.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/record/monitor.png)
 
 ### Manual Recording
 
@@ -22,7 +22,7 @@ Manually create the corresponding **data set**, manually time or directly enter 
 
 [Details](./record.md#manual)
 
-![](../../public/assets/en/record/label.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/record/label.png)
 
 ### Browser Records
 
@@ -30,7 +30,7 @@ Import browser history data
 
 [Details](./record.md#browser)
 
-![](../../public/assets/en/record/history.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/record/history.png)
 
 ### Note Records
 
@@ -46,7 +46,7 @@ Create custom charts for display
 
 [Details](./display.md#chart)
 
-![](../../public/assets/en/display/chart.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/display/chart.png)
 
 ### Timeline display
 
@@ -54,7 +54,7 @@ The timeline lists all the details of activities in a day
 
 [Details](./display.md#timeline)
 
-![](../../public/assets/en/display/timeline.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/display/timeline.png)
 
 ### Time block display
 
@@ -62,4 +62,4 @@ The time block lists the general situation of activities in the past few days
 
 [Details](./display.md#timeblock)
 
-![](../../public/assets/en/display/timeblock.png)
+![](https://cdn.jsdelivr.net/gh/shion-app/docs/src/public/assets/en/display/timeblock.png)
