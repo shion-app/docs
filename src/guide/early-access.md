@@ -14,5 +14,5 @@ In the following function chapters, the functions with the following marks are o
 
 ## Features {#feature}
 
-+ [Timeblock](./timeblock.md)
++ [Timeblock](./display.md#timeblock)
 + [Review mode](./review.md)

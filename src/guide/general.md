@@ -34,33 +34,6 @@ For example, I use the open source version and now want to migrate the data to t
 
 Click `View`-`Import and Export`, export the data as a compressed package in the `Open Source Version`, and then import the data in the `Advanced Version`
 
-## Why filter out the automatic recording programs, and some software don't have it?
-
-If there is a shield icon in the lower right corner of the software startup icon, it means you need to start shion `as an administrator`. If you have already started shion, you need to click Exit in the tray in the lower right corner, right-click the shion icon again, and then click `Run as Administrator`
-
-::: warning Is there any more convenient way?
-
-Currently, after starting `Startup` in `Settings`, you can choose `As Administrator`, but after testing, it will occasionally fail to start normally, so it is not recommended to enable this option
-
-So the only way at present is to manually right-click `Run as Administrator`
-:::
-
-## Why is there no automatic recording of program activities?
-
-In the `Monitoring` page of the `Data Collection`, confirm that you have added the program to be recorded
-
-## Can automatic monitoring automatically add programs?
-
-In `Settings`, add it in the `Automatic Monitoring Whitelist`
-
-## Why is there no response when refreshing in the timeline?
-
-The program is updated regularly, and your operation will take some time to be reflected in the timeline
-
-## Why do I only open the webpage once in the timeline, but there are two or more records?
-
-All data comes from the browser's local database. You can open the browser's history to check if they are the same
-
 ## Windows Security Center prompts virus
 
 Normal phenomenon, the software is not signed, please confirm whether to use it

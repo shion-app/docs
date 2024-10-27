@@ -48,3 +48,7 @@ If you have any questions or want to inform the author during the usage process,
 ### Translate {#translate}
 
 If you feel confused by translations in other languages and are ready to do a big job, please click [here](https://github.com/shion-app/shion/discussions) to tell me
+
+## Support
+
+If you think this software is good, you can buy the [advanced version](../download.md) to support me

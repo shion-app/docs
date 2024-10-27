@@ -26,6 +26,10 @@ export default defineConfig({
                 text: 'Guide',
                 items: [
                   {
+                    text: 'Quick start',
+                    link: '/quick-start',
+                  },
+                  {
                     text: 'What is shion?',
                     link: '/what-is-shion',
                   },
@@ -34,38 +38,12 @@ export default defineConfig({
                     link: '/early-access',
                   },
                   {
-                    text: 'Feature',
-                    collapsed: false,
-                    items: [
-                      {
-                        text: 'Overview',
-                        link: 'overview',
-                      },
-                      {
-                        text: 'Timeline',
-                        link: 'timeline',
-                      },
-                      {
-                        text: 'Timeblock',
-                        link: 'timeblock',
-                      },
-                      {
-                        text: 'Review',
-                        link: 'review',
-                      },
-                      {
-                        text: 'Collection',
-                        link: 'collection',
-                      },
-                      {
-                        text: 'Record',
-                        link: 'record',
-                      },
-                      {
-                        text: 'Browser history',
-                        link: 'history',
-                      },
-                    ],
+                    text: 'Record',
+                    link: '/record',
+                  },
+                  {
+                    text: 'Display',
+                    link: '/display',
                   },
                 ],
               },
@@ -136,7 +114,7 @@ export default defineConfig({
         },
         nav: [
           { text: 'Chat', link: '/chat/development-review' },
-          { text: 'Guide', link: '/guide/what-is-shion' },
+          { text: 'Guide', link: '/guide/quick-start' },
           { text: 'Download', link: '/download' },
         ],
       }
