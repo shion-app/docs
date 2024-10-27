@@ -84,7 +84,7 @@ For **browser history**, **moments**, **notes** searches, you can also jump to t
 
 ## Time block display {#timeblock}
 
-[![First-hand experience](https://img.shields.io/badge/%E6%8A%A2%E5%85%88%E4%BD%93%E9%AA%8C-%237246de)](/en/guide/early-access)
+[![First-hand experience](https://img.shields.io/badge/%E6%8A%A2%E5%85%88%E4%BD%93%E9%AA%8C-%237246de)](./early-access.md)
 
 Display the data of **manual timing** and **automatic timing** for one week. You can switch to the previous week, next week, or directly select a specific date through the button on the upper right
 
