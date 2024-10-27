@@ -15,5 +15,5 @@
 
 ## 功能 {#feature}
 
-+ [时间块](./timeblock.md)
++ [时间块](./display.md#timeblock)
 + [回顾模式](./review.md)

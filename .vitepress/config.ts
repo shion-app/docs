@@ -155,6 +155,10 @@ export default defineConfig({
                 text: '指南',
                 items: [
                   {
+                    text: '快速开始',
+                    link: '/quick-start',
+                  },
+                  {
                     text: '什么是 shion?',
                     link: '/what-is-shion',
                   },
@@ -163,38 +167,12 @@ export default defineConfig({
                     link: '/early-access',
                   },
                   {
-                    text: '功能',
-                    collapsed: false,
-                    items: [
-                      {
-                        text: '总览',
-                        link: 'overview',
-                      },
-                      {
-                        text: '时间线',
-                        link: 'timeline',
-                      },
-                      {
-                        text: '时间块',
-                        link: 'timeblock',
-                      },
-                      {
-                        text: '回顾',
-                        link: 'review',
-                      },
-                      {
-                        text: '数据集合',
-                        link: 'collection',
-                      },
-                      {
-                        text: '记录',
-                        link: 'record',
-                      },
-                      {
-                        text: '浏览器历史记录',
-                        link: 'history',
-                      },
-                    ],
+                    text: '记录',
+                    link: '/record',
+                  },
+                  {
+                    text: '展示',
+                    link: '/display',
                   },
                 ],
               },
@@ -265,7 +243,7 @@ export default defineConfig({
         },
         nav: [
           { text: '闲谈', link: '/zh/chat/development-review' },
-          { text: '指南', link: '/zh/guide/what-is-shion' },
+          { text: '指南', link: '/zh/guide/quick-start' },
           { text: '下载', link: '/zh/download' },
         ],
       }

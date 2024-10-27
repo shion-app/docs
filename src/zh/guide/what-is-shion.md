@@ -46,3 +46,7 @@ shion不是一款todo软件，只负责记录**已经发生**和**正在发生**
 ### 翻译 {#translate}
 
 如果你觉得其他语言的翻译让你感到困惑，并准备大干一场，请在[此处](https://github.com/shion-app/shion/discussions)告诉我
+
+## 支持
+
+如果觉得这个软件还不错，可以购买[进阶版](../download.md)来支持我
