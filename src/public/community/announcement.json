@@ -1,13 +1,13 @@
 [
     {
-        "date": "Sat Oct 26 2024 13:25:34 GMT+0800 (GMT+08:00)",
+        "date": "Mon Oct 28 2024 22:18:19 GMT+0800 (GMT+08:00)",
         "title": {
-            "zh-CN": "",
-            "en-US": ""
+            "zh-CN": "公告上线",
+            "en-US": "Announcement Online"
         },
         "content": {
-            "zh-CN": "",
-            "en-US": ""
+            "zh-CN": "公告功能现已上线，以后会在此处更新一些通知还请留意\n\n接下来我要说件很重要的事，那就是这个软件是有**开机启动**这个设置的，没错，大概就这样",
+            "en-US": "The announcement function is now online. Please pay attention to the updates here in the future.\n\nNext, I want to say something very important, that is, this software has a setting of **Auto start**, yes, that's it."
         },
         "popup": false
     }
