@@ -1,5 +1,17 @@
 [
     {
+        "date": "Tue Dec 24 2024 22: 55: 54 GMT+0800 (GMT+08: 00)",
+        "title": {
+            "zh-CN": "新增总结报表了",
+            "en-US": "Added summary report"
+        },
+        "content": {
+            "zh-CN": "在`视图`-`报表`导出全年报表吧，看看今年记录了多少时间",
+            "en-US": "Export the full-year report in `View`-`Report` to see how much time has been recorded this year"
+        },
+        "popup": false
+    },
+    {
         "date": "Mon Oct 28 2024 22:18:19 GMT+0800 (GMT+08:00)",
         "title": {
             "zh-CN": "公告上线",

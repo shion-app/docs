@@ -20,7 +20,8 @@ const list = [
             '👀自动监听',
             '🌐同步浏览器历史',
             '🖥️第三方应用接入',
-            '🧰扩展（弹弹play、obsidian）'
+            '🧰扩展（弹弹play、obsidian）',
+            '🖨️导出总结报表'
         ],
         url: `https://github.com/shion-app/shion/releases/download/v${latest.version}/shion_${latest.version}_x64-setup.exe`,
         action: 'Windows 10/11 下载',

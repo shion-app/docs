@@ -26,6 +26,7 @@ In the future, Shion will explore more 🌈
 + 🏷️Manual recording
 + 🖥️Third-party application integration
 + 🧰Extension（dandanplay, obsidian, apple calendar🍎）
++ 🖨️Export summary report
 
 ## Chat {#chat}
 

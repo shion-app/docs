@@ -1,5 +1,17 @@
 [
     {
+        "date": "Tue Dec 24 2024 22: 55: 54 GMT+0800 (GMT+08: 00)",
+        "title": {
+            "zh-CN": "新增总结报表了",
+            "en-US": "Added summary report"
+        },
+        "content": {
+            "zh-CN": "在`视图`-`报表`导出全年报表吧，看看今年记录了多少时间\n\n另外，宣传一下，steam版打折啦，如果你有兴趣😎，前往[此处](https://store.steampowered.com/app/3026040/shion/)\n\n你还不知道？前往[下载页面](https://shion.app/zh/download)，看看两者有什么不同吧",
+            "en-US": "Export the full-year report in `View`-`Report` to see how much time has been recorded this year\n\nAlso, let me promote that the steam version is on sale. If you are interested😎, go [here](https://store.steampowered.com/app/3026040/shion/)\n\nYou don't know yet? Go to the [download page](https://shion.app/download) to see the difference between the two."
+        },
+        "popup": false
+    },
+    {
         "date": "Mon Oct 28 2024 22:18:19 GMT+0800 (GMT+08:00)",
         "title": {
             "zh-CN": "公告上线",

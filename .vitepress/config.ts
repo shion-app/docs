@@ -107,6 +107,10 @@ export default defineConfig({
                     text: 'I have a dream',
                     link: '/i-have-a-dream',
                   },
+                  {
+                    text: 'Summary',
+                    link: '/summary',
+                  },
                 ]
               }
             ]
@@ -213,6 +217,10 @@ export default defineConfig({
                   {
                     text: '我有一个梦想',
                     link: '/i-have-a-dream',
+                  },
+                  {
+                    text: '来段总结',
+                    link: '/summary',
                   },
                 ]
               }

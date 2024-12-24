@@ -19,7 +19,8 @@ const list = [
             '👀Automatic monitoring',
             '🌐Synchronize browser history',
             '🖥️Third-party application integration',
-            '🧰Extension（dandanplay, obsidian）'
+            '🧰Extension（dandanplay, obsidian）',
+            '🖨️Export summary report'
         ],
         url: `https://github.com/shion-app/shion/releases/download/v${latest.version}/shion_${latest.version}_x64-setup.exe`,
         action: 'Windows 10/11 Download',
