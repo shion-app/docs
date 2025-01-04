@@ -17,7 +17,7 @@ const props = defineProps<{
 
 <template>
     <div class="mt-6 flex flex-col items-center sm:flex-row sm:justify-evenly sm:items-stretch">
-        <div class="w-[350px] sm:w-[400px] mb-8" v-for="{ level, url, action, features, desc, logo, tip } in props.list"
+        <div class="w-[350px] sm:w-[400px] mb-12" v-for="{ level, url, action, features, desc, logo, tip } in props.list"
             :key="level">
             <div class="bg-white text-black rounded-lg  shadow-xl overflow-hidden min-h-[400px] h-full flex flex-col ">
                 <div class="text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">

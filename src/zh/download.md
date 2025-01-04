@@ -39,6 +39,7 @@ const list = [
         url: 'https://store.steampowered.com/app/3026040/shion/',
         action: '跳转至商店',
         logo: steam,
+        tip: '不支持多设备同步，仅离线使用'
     }
 ]
 </script>

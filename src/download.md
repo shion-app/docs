@@ -38,6 +38,7 @@ const list = [
         url: 'https://store.steampowered.com/app/3026040/shion/',
         action: 'Jump to the store',
         logo: steam,
+        tip: 'Not supporting multi device synchronization, only for offline use'
     }
 ]
 </script>
