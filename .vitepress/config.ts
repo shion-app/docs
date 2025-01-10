@@ -111,6 +111,10 @@ export default defineConfig({
                     text: 'Summary',
                     link: '/summary',
                   },
+                  {
+                    text: 'No mac',
+                    link: '/no-mac',
+                  },
                 ]
               }
             ]
@@ -221,6 +225,10 @@ export default defineConfig({
                   {
                     text: '来段总结',
                     link: '/summary',
+                  },
+                  {
+                    text: '不会存在mac版本',
+                    link: '/no-mac',
                   },
                 ]
               }
