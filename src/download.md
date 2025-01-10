@@ -14,7 +14,7 @@ const list = [
         desc: 'Open source community, for new users',
         features: [
             '📊Custom data card',
-            '📅Timeline',
+            '📅Timeline, 📅Timeblock',
             '🏷️Manual recording',
             '👀Automatic monitoring',
             '🌐Synchronize browser history',
@@ -27,11 +27,10 @@ const list = [
         logo: windows
     },
     {
-        level: 'Advanced',
-        desc: 'For advanced users',
+        level: 'Fee required',
+        desc: 'If you would like to support the author',
         features: [
             'All features of the free version',
-            '📅Timeblock',
             '🛒Review mode',
             '🧰Extension（apple calendar🍎）'
         ],

@@ -1,5 +1,11 @@
 # Quick Start
 
+::: warning
+
+This project has entered an inactive state
+
+:::
+
 Now it only takes a few minutes to quickly understand the functions of shion
 
 It is generally divided into two parts, namely **recording** and **display** of data
