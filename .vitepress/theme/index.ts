@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme';
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
-import { toRefs } from "vue";
+import { h, toRefs } from "vue";
 
 import './custom.css'
 
@@ -46,5 +46,16 @@ export default {
             // 可以在页面使用 `comment: true` 前言单独启用
             false
         );
-    }
+    },
+    Layout() {
+        const { lang } = useData()
+        const message =
+            lang.value === 'en'
+                ? '🚧 The software no longer provides functions such as upgrades and maintenance'
+                : '🚧 该软件不再提供升级、维护等功能'
+
+        return h(DefaultTheme.Layout, null, {
+            'layout-top': () => h('div', { class: 'global-banner' }, message),
+        })
+    },
 };

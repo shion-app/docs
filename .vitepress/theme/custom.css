@@ -11,3 +11,18 @@
   --vp-home-hero-image-background-image: radial-gradient(#9653cb, #d9fdfe);
   --vp-home-hero-image-filter: blur(50px);
 }
+
+.global-banner {
+  background-color: #ffd55a;
+  color: #000;
+  text-align: center;
+  font-weight: 500;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 64px;
+  z-index: 10;
+}

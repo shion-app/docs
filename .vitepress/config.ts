@@ -236,7 +236,7 @@ export default defineConfig({
           }
         },
         nav: [
-          { text: '闲谈', link: '/zh/chat/development-review' },
+          // { text: '闲谈', link: '/zh/chat/development-review' },
           { text: '指南', link: '/zh/guide/quick-start' },
           { text: '下载', link: '/zh/download' },
         ],
