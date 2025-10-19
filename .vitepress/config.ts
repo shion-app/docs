@@ -121,7 +121,7 @@ export default defineConfig({
           }
         },
         nav: [
-          { text: 'Chat', link: '/chat/development-review' },
+          // { text: 'Chat', link: '/chat/development-review' },
           { text: 'Guide', link: '/guide/quick-start' },
           { text: 'Download', link: '/download' },
         ],
